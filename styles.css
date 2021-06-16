@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+
+.container{
+    background-image: linear-gradient(rgba(15, 15, 15, 0.151), rgba(15, 15, 15, 0.226)), url("math-tutoring.jpeg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+#container-one{
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 460px;
+    transform: translate(-50%, -50%);
+}
+
+#site-title{
+    font-family: 'Bangers', cursive;
+
+    font-size: 120px;
+    margin: 20px;
+}
+
+.optBtn{
+    /* padding: 10px; */
+    border-radius: 19px;
+    width: 211px;
+    height: 40px;
+    background-color: #e6e600;
+    border: 1px #e6e600 solid;
+}
+
+
+.optBtn:hover{
+    background-color: #66ff99;
+    font-size: 130%;
+    height: 45px;
+}
+
+.optBtn-elem{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 15px;
+    
+}
+.optBtn-sec{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16px;
+
+    
+}
+.optBtn-web{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    font-size: 19px;
+}
+
+#section-two{
+
+    /* margin-top: 100vh; */
+
+
+}
